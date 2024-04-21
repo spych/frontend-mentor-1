@@ -1,0 +1,109 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* Base styles */
+p, li, span {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+/* Heading styles */
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 200%;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+
+/* Container styles */
+body {
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+}
+
+section {
+    width: 60vw;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+/* List and image styles */
+li {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 15px;
+    width: 60vw;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Specific section styles */
+.line-heading {
+    font-weight: bold;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep > h3 {
+    line-height: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.prep {
+    margin-bottom: 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 30px 30px 20px 30px;
+}
+
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h1,h2,h3,p,div {
+        padding: 0 20px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    section {
+        padding: 0;
+        width: 100vw;
+    }
+    img {
+        border-radius: 0;
+        width: 100vw;
+    }
+}
