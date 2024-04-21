@@ -106,4 +106,7 @@ td {
         border-radius: 0;
         width: 100vw;
     }
+    .attribution {
+        margin-bottom: 20px;
+    }
 }
